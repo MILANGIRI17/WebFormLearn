@@ -13,9 +13,6 @@ textarea {
     max-width: 280px;
 }
 
-.form-group {
-    margin-bottom: 1rem;
-}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -24,3 +21,11 @@ textarea {
     }
 }
 
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.bg-error {
+    color: red;
+}

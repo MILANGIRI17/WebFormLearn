@@ -31,6 +31,12 @@
     </div>
 
     <div class="form-group">
+        <label>*Name a Price (in USD):</label>
+        <asp:TextBox ID="txtPrice" CssClass="form-control" runat="server" />
+        <asp:RequiredFieldValidator ID="rqPrice" ControlToValidate="txtPrice" ValidationGroup="valForm" CssClass="bg-error" ErrorMessage="*Price is required." Display="Dynamic" runat="server" />
+        <asp:CompareValidator ID="cvPrice" ControlToValidate="txtPrice" Operator="DataTypeCheck" Type="Currency" ValidationGroup="valForm" CssClass="bg-error" ErrorMessage="Please enter valid price." Display="Dynamic" runat="server" />
+    </div>
+    <div class="form-group">
         <label>*Your Email:</label>
         <asp:TextBox ID="txtEmail" CssClass="form-control" runat="server" />
         <asp:RequiredFieldValidator ID="rqEmail" runat="server" ControlToValidate="txtEmail" ValidationGroup="valForm" CssClass="bg-error" ErrorMessage="*Email required." Display="Dynamic" />
