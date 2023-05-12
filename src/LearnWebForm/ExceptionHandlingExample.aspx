@@ -7,7 +7,6 @@
         <label>This should be a decimal: </label>
         <asp:TextBox ID="txtDecimal" CssClass="form-control" runat="server"/>
     </div>
-
     <div class="form-group">
         <asp:Button ID="btnSubmit" CssClass="btn btn-success" Text="Submit" runat="server" OnClick="btnSubmit_Click" />
     </div>
