@@ -17,19 +17,21 @@ namespace LearnWebForm
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             string message = string.Empty;
-            try
-            {
-                decimal expectedDecimal = decimal.Parse(txtDecimal.Text);
-                message = "Your decimal is : " + expectedDecimal;
-                lblMessage.CssClass = "text-success";
-            }
-            catch (Exception ex)
-            {
-                message = "Something went wrong: "+ex.Message;
-                lblMessage.CssClass = "text-danger";
-            }
+            //try
+            //{
+            decimal expectedDecimal = decimal.Parse(txtDecimal.Text);
+            message = "Your decimal is : " + expectedDecimal;
             lblMessage.Text = message;
+            lblMessage.CssClass = "text-success";
             lblMessage.Visible = true;
+            //}
+            //catch (Exception ex)
+            //{
+            //    message = "Something went wrong: "+ex.Message;
+            //    lblMessage.CssClass = "text-danger";
+            //}
+            //lblMessage.Text = message;
+            //lblMessage.Visible = true;
         }
     }
 }

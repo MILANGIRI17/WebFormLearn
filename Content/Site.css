@@ -25,3 +25,11 @@ textarea {
 .form-group {
     margin-bottom: 1rem;
 }
+
+
+/* Custom Error */
+.custom-error-div{
+    padding: 10px 15px;
+    font-size:2rem;
+    color:red;
+}
