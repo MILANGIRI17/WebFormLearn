@@ -137,6 +137,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="DataBindingExample.aspx" />
     <Content Include="DBConnectionExample.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="ErrorPage.aspx" />
@@ -226,6 +227,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataBindingExample.aspx.cs">
+      <DependentUpon>DataBindingExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataBindingExample.aspx.designer.cs">
+      <DependentUpon>DataBindingExample.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBConnectionExample.aspx.cs">
       <DependentUpon>DBConnectionExample.aspx</DependentUpon>

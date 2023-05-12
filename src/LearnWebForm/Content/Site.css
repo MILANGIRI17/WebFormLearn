@@ -33,3 +33,7 @@ textarea {
     font-size:2rem;
     color:red;
 }
+
+.color-swatch{
+    height:20px;
+}
